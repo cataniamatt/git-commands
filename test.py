@@ -1,2 +1,3 @@
+message = "Hello World!"
 def hello:
-	print("Hello World!")
+	print(message)
