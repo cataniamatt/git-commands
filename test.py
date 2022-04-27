@@ -1,3 +1,3 @@
 message = "Hello World!"
-def hello:
+def hello():
 	print(message)
