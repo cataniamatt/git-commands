@@ -1,3 +1,3 @@
 # testing-git
 
-This repository was sued to test git and GitHub are used.
+This repository was created to test how git and GitHub are used.
