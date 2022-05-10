@@ -19,9 +19,9 @@ Working on a project using Git involves a workflow of various stages. This workf
 
 Once all the necessary code changes are done in all the code files, the files in the staging area can be commited and then pushed to the remote repository.
 
-Files can be ignored by Git by creating a **_.gitignore_** file. This file contains a list of all files that should be ignored and not tracked by Git. A collection of useful .gitignore template files provided by GitHub can be found [here](https://github.com/github/gitignore).
+A branching system allows developers to create an isolated environment where they can work on a copy of the original code to fix bugs or develop new features. These changes don't affect the main branch until the branch is merged with it. This is done to keep the main branch as the stable version of the project.
 
-## Rename a remote repository
+Git can be instructed to not track certain files by using a **_.gitignore_** file. This file contains a list of all files that should be ignored and not tracked by Git. A collection of useful .gitignore template files provided by GitHub can be found [here](https://github.com/github/gitignore).
 
 ## Steps to create a new repository on GitHub
 
@@ -31,9 +31,10 @@ An SSH key must be created and added to the GitHub account to allow connections 
 
 2. Give the repository a name and choose if it is a private or public repo. Do not add the README,.gitignore or license files at this stage.
 
-3. Create a local repository.
+3. Create a local directory and repository using the command line.
 
 ```
+mkdir <directory> && cd <directory>
 git init
 ```
 
