@@ -106,10 +106,10 @@ git push -u origin main
 | ------------------------------------------------------------------- | ----------------------------------------------- |
 | `git branch`                                                        | View all branches in the repository.            |
 | `git branch <branch-name>`                                          | Creates a new branch with the given name.       |
-| `git checkout <branch-name>`                                        | Switch to the named branch.                     |
-| `git push origin`                                                   | Pushes the named branch to GitHub.              |
 | `git branch -D <branch-name>`                                       | Deletes the local branch.                       |
-| `git branch --track <new-local-branch> origin/<remote-base-branch>` | New local branch based on the remote branch.    |
-| `git push --delete origin/<remote-branch-name>`                     | Deletes a remote branch.                        |
 | `git branch -m <current-name> <new-name>`                           | Rename a local branch                           |
+| `git branch --track <new-local-branch> origin/<remote-base-branch>` | New local branch based on the remote branch.    |
+| `git push origin`                                                   | Pushes the named branch to GitHub.              |
+| `git push --delete origin/<remote-branch-name>`                     | Deletes a remote branch.                        |
 | `git merge <source-branch> <target-branch>`                         | Merge the source branch into the target branch. |
+| `git checkout <branch-name>`                                        | Switch to the named branch.                     |
