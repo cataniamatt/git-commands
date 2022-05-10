@@ -73,7 +73,7 @@ git push -u origin main
 | --------------------------------------------------------------------------- | -------------------------------------------------- |
 | `git init`                                                                  | Creates a new repository in the current directory. |
 | `git clone ssh://git@github.com/<username>/<repo-name>.git`                 | Clones a remote repository on the local machine.   |
-| `git remote set-url origin ssh://git@github.com/<username>/<repo-name>.git` | `Change remote repository url`                     |
+| `git remote set-url origin ssh://git@github.com/<username>/<repo-name>.git` | Change remote repository url                       |
 
 ### Staging
 
