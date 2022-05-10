@@ -83,13 +83,6 @@ git push -u origin main
 | `git add <filename>` | Adds the file or directory to the staging area.                   |
 | `git rm <filename>`  | Removes the file or directory from the staging area.              |
 
-### Changes
-
-| Command | Description |
-| `git diff` | Shows differences between files that are not staged yet |
-| `git diff -staged`| Shows difference between files in the staging area and the latest version |
-| `git diff <branch-1> <branch-2>` | Differences between the two branches |
-
 ### Commiting
 
 | Command                               | Description                                                                                                         |
@@ -98,6 +91,14 @@ git push -u origin main
 | `git log [--summary] [--oneline]`     | Outputs a log of all commits made, including the commit ID and message.                                             |
 | `git revert <commit_ID>`              | Reverts the repository to the commit specified by the ID. Does not delete the commits made after the specified one. |
 | `git reset <commit_ID>`               | Same as the revert command but deletes all commits made after the specified commit.                                 |
+
+### Changes
+
+| Command                          | Description                                                               |
+| -------------------------------- | ------------------------------------------------------------------------- |
+| `git diff`                       | Shows differences between files that are not staged yet                   |
+| `git diff -staged`               | Shows difference between files in the staging area and the latest version |
+| `git diff <branch-1> <branch-2>` | Differences between the two branches                                      |
 
 ### Updating changes
 
