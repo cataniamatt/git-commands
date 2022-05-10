@@ -67,12 +67,13 @@ git push -u origin main
 
 ## Git commands
 
-### Creating repositories
+### Repository configurations
 
-| Command                                                     | Description                                        |
-| ----------------------------------------------------------- | -------------------------------------------------- |
-| `git init`                                                  | Creates a new repository in the current directory. |
-| `git clone ssh://git@github.com/<username>/<repo-name>.git` | Clones a remote repository on the local machine.   |
+| Command                                                                     | Description                                        |
+| --------------------------------------------------------------------------- | -------------------------------------------------- |
+| `git init`                                                                  | Creates a new repository in the current directory. |
+| `git clone ssh://git@github.com/<username>/<repo-name>.git`                 | Clones a remote repository on the local machine.   |
+| `git remote set-url origin ssh://git@github.com/<username>/<repo-name>.git` | `Change remote repository url`                     |
 
 ### Staging
 
@@ -87,7 +88,7 @@ git push -u origin main
 | Command                               | Description                                                                                                         |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | `git commit -m "Commit message here"` | Commits any staged files and adds a short message that briefly describes the changes.                               |
-| `git log`                             | Outputs a log of all commits made, including the commit ID and message.                                             |
+| `git log [--summary] [--oneline]`     | Outputs a log of all commits made, including the commit ID and message.                                             |
 | `git revert <commit_ID>`              | Reverts the repository to the commit specified by the ID. Does not delete the commits made after the specified one. |
 | `git reset <commit_ID>`               | Same as the revert command but deletes all commits made after the specified commit.                                 |
 
@@ -101,12 +102,14 @@ git push -u origin main
 
 ### Branches
 
-| Command                                                             | Description                                  |
-| ------------------------------------------------------------------- | -------------------------------------------- |
-| `git branch`                                                        | View all branches in the repository.         |
-| `git branch <branch-name>`                                          | Creates a new branch with the given name.    |
-| `git checkout <branch-name>`                                        | Switch to the named branch.                  |
-| `git push origin`                                                   | Pushes the named branch to GitHub.           |
-| `git branch -D <branch-name>`                                       | Deletes the local branch.                    |
-| `git branch --track <new-local-branch> origin/<remote-base-branch>` | New local branch based on the remote branch. |
-| `git push --delete origin/<remote-branch-name>`                     | Deletes a remote branch.                     |
+| Command                                                             | Description                                     |
+| ------------------------------------------------------------------- | ----------------------------------------------- |
+| `git branch`                                                        | View all branches in the repository.            |
+| `git branch <branch-name>`                                          | Creates a new branch with the given name.       |
+| `git checkout <branch-name>`                                        | Switch to the named branch.                     |
+| `git push origin`                                                   | Pushes the named branch to GitHub.              |
+| `git branch -D <branch-name>`                                       | Deletes the local branch.                       |
+| `git branch --track <new-local-branch> origin/<remote-base-branch>` | New local branch based on the remote branch.    |
+| `git push --delete origin/<remote-branch-name>`                     | Deletes a remote branch.                        |
+| `git branch -m <current-name> <new-name>`                           | Rename a local branch                           |
+| `git merge <source-branch> <target-branch>`                         | Merge the source branch into the target branch. |
