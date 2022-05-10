@@ -1,5 +1,12 @@
 # Git notes and commands
 
+## Table of contents
+
+- [What is Git?](#what-is-git)
+- [How Git works](#how-git-works)
+- [Steps to create a new GitHub repository](#steps-to-create-a-new-github-repository)
+- [Git commands](#git-commands)
+
 ## What is Git?
 
 Git is a DevOps tool used for source code management. It is a free and open-source version control system used to handle small to very large projects efficiently. Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development.
@@ -23,7 +30,7 @@ A branching system allows developers to create an isolated environment where the
 
 Git can be instructed to not track certain files by using a **_.gitignore_** file. This file contains a list of all files that should be ignored and not tracked by Git. A collection of useful .gitignore template files provided by GitHub can be found [here](https://github.com/github/gitignore).
 
-## Steps to create a new repository on GitHub
+## Steps to create a new GitHub repository
 
 An SSH key must be created and added to the GitHub account to allow connections to remote repositories. This can be done by following the instructions [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
