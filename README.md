@@ -121,3 +121,4 @@ git push -u origin main
 | `git push --delete origin/<remote-branch-name>`                     | Deletes a remote branch.                        |
 | `git merge <source-branch> <target-branch>`                         | Merge the source branch into the target branch. |
 | `git checkout <branch-name>`                                        | Switch to the named branch.                     |
+| `git checkout -b <branch-name>`                                     | Create and switch to the named branch.          |
