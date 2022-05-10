@@ -83,6 +83,13 @@ git push -u origin main
 | `git add <filename>` | Adds the file or directory to the staging area.                   |
 | `git rm <filename>`  | Removes the file or directory from the staging area.              |
 
+### Changes
+
+| Command | Description |
+| `git diff` | Shows differences between files that are not staged yet |
+| `git diff -staged`| Shows difference between files in the staging area and the latest version |
+| `git diff <branch-1> <branch-2>` | Differences between the two branches |
+
 ### Commiting
 
 | Command                               | Description                                                                                                         |
