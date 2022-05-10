@@ -1,4 +1,4 @@
-# Git Notes
+# Git notes and commands
 
 ## What is Git?
 
