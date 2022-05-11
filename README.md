@@ -38,7 +38,7 @@ An SSH key must be created and added to the GitHub account to allow connections 
 
 1. Press the 'Create a new repository' button on the GitHub interface.
 
-2. Give the repository a name and choose if it is a private or public repo. Do not add the README,.gitignore or license files at this stage.
+2. Give the repository a name and choose if it is a private or public repo. Do not choose to add the README, .gitignore, and license files at this stage.
 
 3. Create a local directory and repository using the command line.
 
