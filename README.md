@@ -30,7 +30,7 @@ A branching system allows developers to create an isolated environment where the
 
 ## .gitignore
 
-Git can be instructed to not track certain files by using a **_.gitignore_** file. This file contains a list of all files that should be ignored and not tracked by Git. A collection of useful .gitignore template files provided by GitHub can be found <a href="https://github.com/github/gitignore" target="_blank">here</a>.
+Git can be instructed to not track certain files by using a **_.gitignore_** file. This file contains a list of all files that should be ignored and not tracked by Git. A collection of useful .gitignore template files provided by GitHub can be found [here](https://github.com/github/gitignore).
 
 ## Steps to create a new GitHub repository
 
