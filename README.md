@@ -28,6 +28,8 @@ Once all the necessary code changes are done in all the code files, the files in
 
 A branching system allows developers to create an isolated environment where they can work on a copy of the original code to fix bugs or develop new features. These changes don't affect the main branch until the branch is merged with it. This is done to keep the main branch as the stable version of the project.
 
+## .gitignore
+
 Git can be instructed to not track certain files by using a **_.gitignore_** file. This file contains a list of all files that should be ignored and not tracked by Git. A collection of useful .gitignore template files provided by GitHub can be found [here](https://github.com/github/gitignore).
 
 ## Steps to create a new GitHub repository
