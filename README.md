@@ -36,7 +36,7 @@ Git can be instructed to not track certain files by using a **_.gitignore_** fil
 
 An SSH key must be created and added to the GitHub account to allow connections to remote repositories. This can be done by following the instructions [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
-1. Press the 'Create a new repository' button on the GitHub interface.
+1. Press the green 'New' button on the GitHub homepage to create a new repository.
 
 2. Give the repository a name and choose if it is a private or public repo. Do not choose to add the README, .gitignore, and license files at this stage.
 
